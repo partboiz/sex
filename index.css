@@ -1,0 +1,141 @@
+*{
+    margin: 0px;  
+    padding: 0px; 
+}
+.header-logo{
+       background-color: #d35400;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+}
+ul {
+       margin-bottom: 0;
+       list-style-type: none;
+}
+nav{
+       display: flex;
+       background-color: #f1c40f;
+       justify-content: center;
+}
+nav #main-menu li a{
+       color: white;
+       text-decoration: none;
+       display: block;
+       padding: 10px 10px;
+}
+#main-menu{
+       display: flex;
+}
+#toggle {
+    background-color: #f1c40f;
+    display: none;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.hero-banner img{       
+       width: 100%;
+       padding-bottom: 15px;
+}
+.news {
+       margin-top: 25px;
+       width: 100%;
+}
+.news h4 {
+       font-weight: bold;
+       padding-bottom: 10px ;
+}
+.search-bar{
+       display: none;
+}  
+.menu-search{
+       background-color: #f1c40f;
+       display: flex;
+}   
+.inside{
+       text-align: center;
+       display: flex;
+     }
+     .inside h4{
+       color: #f95412;
+     }
+     .noidung{
+       margin: 10px 10px;
+       border: 1px solid orange;
+       padding: 20px;
+     }
+     .noidung img{
+       width: 100%;
+     }
+     .noidung h5{
+       color: #aa4100;
+       text-align: left;
+       margin: 0%;
+       font-size: 15px;
+     }
+     .noidung p{
+       font-size: 14px;
+       text-align: left;
+       margin-top: 0%;
+     }
+     .footer{
+       text-align: center;
+       background-color: aqua;
+     }  
+@media screen and (max-width: 320px) {
+    body{
+        width: 100%;
+}
+#main-menu{
+       text-align: center;
+        flex-direction: column;
+}
+#toggle{
+        display: block;
+}
+.search-bar{
+       display: flex;
+       align-items: center;
+}
+.search3{
+       display: none;
+}
+.logo img{
+       display: flex;
+       justify-content: center;
+       width: 50%;
+}
+.inside{
+       display: flex;
+       flex-wrap: wrap;
+}
+}
+@media screen and (max-width: 375px) {
+       body{
+           width: 100%;
+   }
+   #main-menu{
+          text-align: center;
+           flex-direction: column;
+   }
+   #toggle{
+           display: block;
+   }
+   .search-bar{
+          display: flex;
+          align-items: center;
+   }
+   .search3{
+          display: none;
+   }
+   .logo img{
+          display: flex;
+          justify-content: center;
+          width: 50%;
+   }
+   .inside{
+          display: flex;
+          flex-wrap: wrap;
+   }
+   }
